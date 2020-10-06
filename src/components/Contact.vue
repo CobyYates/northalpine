@@ -7,7 +7,7 @@
           <v-row>
             <v-col cols="12" sm="12" md="12" lg="8" xl="8" class="mx-auto">
               <v-row>
-                <v-col cols="12 mt-10 pb-0" sm="6" md="6" lg="6" xl="6">
+                <v-col cols="12 py-0" sm="6" md="6" lg="6" xl="6">
                   <v-text-field
                     v-model="firstname"
                     solo

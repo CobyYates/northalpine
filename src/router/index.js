@@ -5,19 +5,28 @@ import Home from '../views/Home.vue'
 Vue.use(VueRouter)
 
   const routes = [
-  {
-    path: '/',
-    name: 'Home',
-    component: Home
-  },
-  {
-    path: '/about',
-    name: 'About',
-    component: function () {
-      return import(/* webpackChunkName: "about" */ '../views/About.vue')
-    }
-  }
-]
+    {
+      path: "/",
+      name: "Home",
+      component: Home,
+    },
+    {
+      path: "/about",
+      name: "About",
+      component: function() {
+        return import(/* webpackChunkName: "about" */ "../views/About.vue");
+      },
+    },
+    {
+      path: "/portfolio",
+      name: "Portfolio",
+      component: function() {
+        return import(
+          /* webpackChunkName: "portfolio" */ "../views/Portfolio.vue"
+        );
+      },
+    },
+  ];
 
 const router = new VueRouter({
   mode: 'history',

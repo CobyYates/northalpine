@@ -3,14 +3,14 @@
     <v-main>
       <v-row class="py-0 my-0">
         <v-col sm="4" md="4" lg="4" xl="4" class="ml-5 py-0 my-0">
-          <v-img dark width="150" height="100" src="../src/assets/logo.jpg" />
+          <v-img dark width="150" height="50" class="mb-0 mt-3" src="../src/assets/logo.jpg" />
         </v-col>
         <v-col
           sm="5"
           md="5"
           lg="5"
           xl="5"
-          class="ml-auto d-flex justify-space-around align-center"
+          class="ml-auto d-flex justify-space-around align-center mt-2"
         >
           <router-link class="nav" to="/">HOME</router-link>
           <router-link class="nav" to="/portfolio">PORTFOLIO</router-link>
